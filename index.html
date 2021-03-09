@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Fiverr</title>
+</head>
+
+<body>
+    <div class="header-scroll pt-4 d-none d-lg-block">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-1">
+                    <h1 class="titulo">fvr</h1>
+                </div>
+                <div class="col-sm-8 col-md-4">
+                    <form action="#" class="busqueda">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="¿Qué servicios buscas?" required>
+                            <div class="input-group-append">
+                                <input type="submit" value="buscar" class="btn btn-success">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--col-sm-->
+                <div class="col-md-7">
+                    <nav class="nav justify-content-end">
+                        <a href="#" class="nav-link">Fiverr Pro</a>
+                        <a href="#" class="nav-link">Registrarse</a>
+                        <a href="#" class="nav-link">Explorar</a>
+                        <a href="#" class="nav-link btn btn-outline-success">Vende en fvr</a>
+                    </nav>
+                </div>
+            </div>
+            <!--row-->
+        </div>
+        <!--container-fluid-->
+
+        <hr class="m-1">
+        <div class="container-fluid pb-2">
+            <nav class="nav justify-content-between">
+                <a href="#" class="nav-link">Diseño Gráfico</a>
+                <a href="#" class="nav-link">Marketing Digital</a>
+                <a href="#" class="nav-link">Escritura y Traducciones</a>
+                <a href="#" class="nav-link">Video y Animación</a>
+                <a href="#" class="nav-link">Música y Audio</a>
+                <a href="#" class="nav-link">Programación</a>
+                <a href="#" class="nav-link">Negocios</a>
+                <a href="#" class="nav-link">Diversión y Estilo de Vida</a>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="navegacion d-md-none py-2">
+        <nav class="nav-principal navbar navbar-expand-md navbar-light bg-faded d-flex">
+
+            <!-- menu responsive -->
+            <button class="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#nav_principal"
+                aria-label="Mostrar Navegación" id="btnsidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="logo pl-5 my-1">
+                <svg class="m-0" width="89" height="27" viewBox="0 0 89 27" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="fiverr_logo_nav" fill="#404145">
+                        <path
+                            d="m81.6 13.1h-3.1c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-13.4h-2.5c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-18.4h6v2.8c1-2.2 2.3-2.8 4.3-2.8h7.3v2.8c1-2.2 2.3-2.8 4.3-2.8h2zm-25.2 5.6h-12.4c.3 2.1 1.6 3.2 3.7 3.2 1.6 0 2.7-.7 3.1-1.8l5.3 1.5c-1.3 3.2-4.5 5.1-8.4 5.1-6.5 0-9.5-5.1-9.5-9.5 0-4.3 2.6-9.4 9.1-9.4 6.9 0 9.2 5.2 9.2 9.1 0 .9 0 1.4-.1 1.8zm-5.7-3.5c-.1-1.6-1.3-3-3.3-3-1.9 0-3 .8-3.4 3zm-22.9 11.3h5.2l6.6-18.3h-6l-3.2 10.7-3.2-10.8h-6zm-24.4 0h5.9v-13.4h5.7v13.4h5.9v-18.4h-11.6v-1.1c0-1.2.9-2 2.2-2h3.5v-5h-4.4c-4.3 0-7.2 2.7-7.2 6.6v1.5h-3.4v5h3.4z">
+                        </path>
+                    </g>
+                    <g id="fiverr_logo_nav_dot" fill="#1dbf73">
+                        <path d="m85.3 27c2 0 3.7-1.7 3.7-3.7s-1.7-3.7-3.7-3.7-3.7 1.7-3.7 3.7 1.7 3.7 3.7 3.7z"></path>
+                    </g>
+                </svg>
+            </div>
+            <!--logo-->
+
+
+            <a href="#" class="navbar-brand d-md-none join p-0">Regístrate</a>
+        </nav>
+    </div>
+    <!--navegacion-->
+    <div class="site-sidebar">
+        <div class="top">
+            <a href="#" class="btn btn-success boton py-2 px-4 mb-3">Únete a fiverrr</a>
+        </div>
+        <div class="menu-sidebar">
+            <a href="#" class="nav-link">Iniciar sesión</a>
+            <a href="#" class="nav-link">Fiverr Pro</a>
+            <a href="#" class="nav-link">Explorar categorías</a>
+            <a href="#" class="nav-link">Inicio</a>
+        </div>
+    </div>
+    <div class="sidebar-overlay"></div>
+
+
+    <div class="header pt-4">
+        <div class="container d-none d-md-block">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <img src="./img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <nav class="d-flex justify-content-end flex-column flex-md-row">
+                        <a href="#" class="nav-link">Comienza a vender</a>
+                        <a href="#" class="nav-link">Iniciar Sesión</a>
+                        <a href="#" class="btn btn-outline-light">Regístrate</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+        <div class="container">
+            <div class="row justify-content-center buscador align-items-center">
+                <div class="col-md-8 text-center text-light">
+                    <h1 class="display-4 titulo">No solo sueñes, hazlo</h1>
+                    <p>Servicios de freelancers para empresarios</p>
+                    <form action="#" class="busqueda mt-5 mb-5 d-none">
+                        <!-- d-md-block-->
+                        <div class="input-group">
+
+                            <input type="text" class="form-control py-4" placeholder="¿Qué servicios buscas?" required>
+                            <div class="input-group-append">
+                                <input type="submit" value="Buscar" class="btn-lg btn btn-success px-5">
+                            </div>
+
+                        </div>
+                    </form>
+                    <!--se oculta en md-->
+                    <form action="#" class="busqueda mt-5 mb-5 d-md-none d-sm-block">
+                        <div class="input-group">
+
+                            <input type="text" class="form-control py-4 w-100 mb-3" placeholder="¿Qué servicios buscas?"
+                                required>
+                            <br>
+                            <input type="submit" value="Buscar" class="btn-lg btn btn-success btn-block px-5 m-0">
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="categorias mt-5">
+        <h2 class="text-center titulo">Explora la plataforma</h2>
+        <p class="text-center">Inspirate para construir tu negocio</p>
+        <div class="container-fluid mt-5">
+            <div class="row">
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_dg.png" class="img-fluid">
+                    <h3>Diseño Gráfico</h3>
+                    <p>Logotipos, flyers, tarjtas de presentación y más</p>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_mkt.png" class="img-fluid">
+                    <h3>Marketing digital</h3>
+                    <p>Campañas, videos, y sobretodo, ventas!</p>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_et.png" class="img-fluid">
+                    <h3>Escritura y traducciones</h3>
+                    <p>Resumenes, entradas de blog, traducciones y mucho más</p>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_vd.png" class="img-fluid">
+                    <h3>Video & animación</h3>
+                    <p>Animación de logotipos, comerciales, presentaciones y más</p>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_av.png" class="img-fluid">
+                    <h3>Música & audio</h3>
+                    <p>Canciones, comerciales y mucho más</p>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_dev.png" class="img-fluid">
+                    <h3>Programación y tecnología</h3>
+                    <p>Worpress, aplicaciones web, tiendas virtuales y más</p>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_negocios.png" class="img-fluid">
+                    <h3>Negocios</h3>
+                    <p>Asistentes virtuales, analisis de mercados, planes de negocios y más</p>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center categoria">
+                    <img src="./img/icono_ev.png" class="img-fluid">
+                    <h3>Estilo de vida</h3>
+                    <p>Cursos en línea, mentoría, consejos, creación de eqipos y más</p>
+                </div>
+
+
+            </div>
+            <!--row-->
+        </div>
+        <!--container-->
+    </section>
+
+    <div class="nuevo-pro bg-dark pb-5 pb-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-light text-center text-md-left py-5">
+                    <h2>El nuevo fiverr PRO</h2>
+                    <p>Altamenten probado. Alto nivel. Alta demanda.</p>
+                    <a href="#" class="btn btn-outline-light">Leer más</a>
+                </div>
+                <!--col-md-6-->
+                <div class="col-md-6">
+                    <a href="#" data-toggle="modal" data-target="#mostrar-video">
+                        <img src="./img/fvr_pro.png" class="img-fluid">
+                    </a>
+                    <!-- inicio modal -->
+                    <div class="modal fade" id="mostrar-video" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video src="./video/video.mp4" class="emed-responsive-item" autoplay loop></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin modal -->
+                </div>
+                <!--col-md-6-->
+            </div>
+            <!--row-->
+        </div>
+    </div>
+
+    <div class="primeros-pasos container mt-5">
+        <h2 class="text-center">Primeros pasos</h2>
+        <p class="text-center">Sea cual sea tu meta, puedes empezar por aquí</p>
+        <div class="row justify-content-between mt-4 m-">
+            <div class="descripcion text-light p-3 logotipo m-2">
+                <p>Construye tu empresa<span><br> Crea un logo</span></p>
+            </div>
+            <div class="descripcion text-light p-3 social-media m-2">
+                <p>Llega a más clientes con<span><br> Medios sociales</span></p>
+            </div>
+            <div class="descripcion text-light p-3 audio m-2">
+                <p>Comparte tu mensaje<span><br> Voice over</span></p>
+            </div>
+            <div class="descripcion text-light p-3 traducciones m-2">
+                <p>Llega a más países con<span><br> Traducciones</span></p>
+            </div>
+            <div class="descripcion text-light p-3 wordpress m-2">
+                <p>Personaliza tu sitio con<span><br> WordPress</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="beneficios bg-dark mt-5 py-5">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-md-4 text-light beneficio mb-4">
+                    <h3>Tus <span>términos</span></h3>
+                    <p class="m-0">Contrata el servicio que necesites de acuerdo a tu presupuesto</p>
+                </div>
+                <div class="col-md-4 text-light beneficio mb-4">
+                    <h3>Tu <span>tiempo</span></h3>
+                    <p class="m-0">Encuentraservicios basados en tus necesidades y tus tiempos</p>
+                </div>
+                <div class="col-md-4 text-light beneficio mb-4">
+                    <h3>Tu <span>seguridad</span></h3>
+                    <p class="m-0">Tu pago siempre es seguro, fiverr está hecho de forma muy segura</p>
+                </div>
+            </div>
+            <!--row-->
+        </div>
+    </div>
+    <!--beneficios-->
+
+    <div class="testimoniales py-5">
+        <div class="container">
+            <div id="testimoniales" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#testimoniales" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimoniales" data-slide-to="1"></li>
+                    <li data-target="#testimoniales" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-5 pl-5 pt-4 pt-md-0">
+                                <h4 class="titulo">Gran servicio</h4>
+                                <blockquote>"Un servicio muy profesional, rápido a un excelente costo"</blockquote>
+                                <p>Susana Rojas Acosta, fundadora de Diseño Rojas</p>
+                            </div>
+                            <div class="col-md-7">
+                                <img src="./img/slide1.jpg" class="d-block img-fluid" alt="testimonial 1">
+                            </div>
+                        </div>
+                        <!--row-->
+                    </div>
+                    <!--carousel-item-->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-5 pl-5 pt-4 pt-md-0">
+                                <h4 class="titulo">Gran servicio</h4>
+                                <blockquote>"Un servicio muy profesional, rápido a un excelente costo"</blockquote>
+                                <p>Susana Rojas Acosta, fundadora de Diseño Rojas</p>
+                            </div>
+                            <div class="col-md-7">
+                                <img src="./img/slide1.jpg" class="d-block img-fluid" alt="testimonial 1">
+                            </div>
+                        </div>
+                        <!--row-->
+                    </div>
+                    <!--carousel-item-->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-5 pl-5 pt-4 pt-md-0">
+                                <h4 class="titulo">Gran servicio</h4>
+                                <blockquote>"Un servicio muy profesional, rápido a un excelente costo"</blockquote>
+                                <p>Susana Rojas Acosta, fundadora de Diseño Rojas</p>
+                            </div>
+                            <div class="col-md-7">
+                                <img src="./img/slide1.jpg" class="d-block img-fluid" alt="testimonial 1">
+                            </div>
+                        </div>
+                        <!--row-->
+                    </div>
+                    <!--carousel-item-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="guias container mt-5">
+        <h2 class="text-center titulo">Guías de FVR</h2>
+        <p class="text-center">Como usar fiverr para crecer tu negocio.</p>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./img/blog1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Como crear un Sitio Web
+                        </h3>
+                        <p>Aprende a crear un sitio web con esta guía.</p>
+                    </div>
+                </div>
+                <!--card-->
+            </div>
+            <!--col-md-4-->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./img/blog2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Como crear una App para tu negocio
+                        </h3>
+                        <p>Aprende a crear una App con esta guía.</p>
+                    </div>
+                </div>
+                <!--card-->
+            </div>
+            <!--col-md-4-->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./img/blog3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Como crear una marca fuerte
+                        </h3>
+                        <p>Guía con todo lo necesario para diferenciar tu marca de la competencia.</p>
+                    </div>
+                </div>
+                <!--card-->
+            </div>
+            <!--col-md-4-->
+        </div>
+        <!--row-->
+    </section>
+
+    <footer class="footer bg-light mt-5 py-5">
+        <div class="container-fluid  justify-content-lg-center  justify-content-sm-start ">
+            <div class="widget">
+                <h3>Categorias</h3>
+                <nav class="nav flex-column">
+                    <a href="#" class="nav-link">Diseño Gráfico</a>
+                    <a href="#" class="nav-link">Marketing Digital</a>
+                    <a href="#" class="nav-link">Escritura y Traducciones</a>
+                    <a href="#" class="nav-link">Video y Animación</a>
+                    <a href="#" class="nav-link">Música y Audio</a>
+                    <a href="#" class="nav-link">Programación</a>
+                    <a href="#" class="nav-link">Negocios</a>
+                    <a href="#" class="nav-link">Diversión y Estilo de Vida</a>
+                    <a href="#" class="nav-link">Mapa del Sitio</a>
+                </nav>
+            </div>
+            <!--widget-->
+            <div class="widget">
+                <h3>Nosotros</h3>
+                <nav class="nav flex-column">
+                    <a href="#" class="nav-link">Carreras</a>
+                    <a href="#" class="nav-link">Prensa y noticias</a>
+                    <a href="#" class="nav-link">Asociaciones</a>
+                    <a href="#" class="nav-link">Política de privacidad</a>
+                    <a href="#" class="nav-link">Términos de Servicio</a>
+                    <a href="#" class="nav-link">Reclamos relativos a la propiedad intelectual</a>
+                    <a href="#" class="nav-link">Relaciones con inversionistas</a>
+                </nav>
+            </div>
+            <!--widget-->
+            <div class="widget">
+                <h3>Soporte</h3>
+                <nav class="nav flex-column">
+                    <a href="#" class="nav-link">Ayuda y soporte</a>
+                    <a href="#" class="nav-link">Confianza y seguridad</a>
+                    <a href="#" class="nav-link">Vender en Fiverr</a>
+                    <a href="#" class="nav-link">Comprar en Fiverr</a>
+                </nav>
+            </div>
+            <!--widget-->
+            <div class="widget">
+                <h3>Comunidad</h3>
+                <nav class="nav flex-column">
+                    <a href="#" class="nav-link">Eventos</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Foro</a>
+                    <a href="#" class="nav-link">Estándares de la comunidad</a>
+                    <a href="#" class="nav-link">Pódcast</a>
+                    <a href="#" class="nav-link">Afiliados</a>
+                    <a href="#" class="nav-link">Invitar a un amigo</a>
+                    <a href="#" class="nav-link">Conviértete en vendedor</a>
+                    <a href="#" class="nav-link">Fiverr Elevate <small>Beneficios exclusivos</small></a>
+                </nav>
+            </div>
+            <!--widget-->
+            <div class="widget">
+                <h3>Para Freelancers</h3>
+                <nav class="nav flex-column">
+                    <a href="#" class="nav-link">Fiverr Business</a>
+                    <a href="#" class="nav-link">Fiverr Pro</a>
+                    <a href="#" class="nav-link">Fiverr Estudios</a>
+                    <a href="#" class="nav-link">Creador de logos de Fiverr</a>
+                    <a href="#" class="nav-link">Guías de Fiverr</a>
+                    <a href="#" class="nav-link">Inspírate</a>
+                    <a href="#" class="nav-link">ClearVoice<small> Marketing de contenidos</small></a>
+                    <a href="#" class="nav-link">Software de facturación</a>
+                    <a href="#" class="nav-link">Cursos en línea</a>
+                </nav>
+            </div>
+            <!--widget-->
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
